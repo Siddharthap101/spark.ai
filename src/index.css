@@ -1,0 +1,37 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add dark mode transition */
+@layer base {
+  html {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* Your existing animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) translateY(-80px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateY(-80px) rotate(-360deg);
+  }
+}
+
+/* Dark mode custom styles if needed */
+.dark {
+  color-scheme: dark;
+}
