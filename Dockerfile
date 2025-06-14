@@ -9,3 +9,4 @@ ENV PORT=8080
 EXPOSE 8080
 RUN npm install -g serve
 CMD ["serve", "-s", "dist", "-l", "8080"]
+ 

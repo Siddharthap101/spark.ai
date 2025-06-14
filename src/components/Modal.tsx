@@ -9,7 +9,7 @@ interface ModalProps {
   title: string;
   children: React.ReactNode;
 }
-
+ 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
   if (!isOpen) return null;
 

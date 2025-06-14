@@ -8,7 +8,7 @@ const DarkModeToggle = () => {
     const savedTheme = localStorage.getItem("theme");
     return savedTheme === "dark";
   });
-
+ 
   useEffect(() => {
     // Update localStorage and document class when theme changes
     localStorage.setItem("theme", isDark ? "dark" : "light");

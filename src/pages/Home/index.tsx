@@ -12,7 +12,7 @@ interface ThemeChangeEvent extends Event {
     isDark: boolean;
   };
 }
-
+ 
 const HomePage = () => {
   const navigate = useNavigate();
   const translations = {

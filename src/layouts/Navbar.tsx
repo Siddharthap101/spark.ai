@@ -10,7 +10,7 @@ interface NavItem {
 
 interface NavbarProps {
   showAuthButtons?: boolean;
-}
+} 
 
 const Navbar: React.FC<NavbarProps> = ({ showAuthButtons = false }) => {
   const navigate = useNavigate();

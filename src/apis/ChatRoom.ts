@@ -9,6 +9,6 @@ const sendPrompt = async (prompt: string, user_id: string) => {
     } catch (error) {
       return "Sorry, I couldn't process your request.";
     }
-  };
+  }; 
 
 export { sendPrompt };

@@ -18,7 +18,7 @@ const ResetPassword = () => {
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
     return passwordRegex.test(password);
   };
-
+ 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const previousPassword = localStorage.getItem("password");

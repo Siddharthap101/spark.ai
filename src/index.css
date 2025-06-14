@@ -7,7 +7,7 @@
 @layer base {
   html {
     @apply transition-colors duration-200;
-  }
+  } 
 }
 
 /* Your existing animations */

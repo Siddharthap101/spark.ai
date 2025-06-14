@@ -15,7 +15,7 @@ const translations = {
     installation: "स्थापना",
     basicUsage: "मूल उपयोग",
     apiReference: "एपीआई संदर्भ",
-  },
+  }, 
   mr: {
     title: "दस्तऐवज",
     gettingStarted: "सुरुवात करणे",

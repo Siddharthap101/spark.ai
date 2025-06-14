@@ -12,7 +12,7 @@ const translations = {
       { title: "Multi-Platform Support", description: "Access your chats from any device with cross-platform compatibility.", icon: "📱" },
       { title: "Message Search", description: "Quickly find past conversations with powerful search functionality.", icon: "🔍" }
     ],
-  },
+  }, 
   hi: {
     title: "विशेषताएँ",
     features: [

@@ -11,8 +11,8 @@ interface ChatHistoryItem {
   title: string;
   timestamp: Date;
   preview: string;
-}
-
+} 
+ 
 interface SidebarProps {
   chats: ChatHistoryItem[];
   onSelectChat: (id: string) => void;
